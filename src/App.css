@@ -1,7 +1,23 @@
 .App {
   text-align: center;
 }
-
+.cards {
+  border: 0.2px solid blueviolet;
+  padding: 10px;
+  font-size: 26px;
+  margin: 20px;
+}
+input.impouts {
+  font-size: 30px;
+  color: black;
+  padding: 10px 10px 10px 25px;
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: blanchedalmond;
+}
+input.impouts:hover {
+  background-color: beige;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +51,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+label.inlabel {
+  font-size: 20px;
+  font-weight: 700;
+}
+input.mb-3 {
+  padding: 3px;
+  font-size: 20px;
+  margin: 9px;
+  border-radius: 7px;
 }
